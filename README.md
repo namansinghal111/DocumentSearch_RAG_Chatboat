@@ -11,7 +11,6 @@ This project enables users to query documents (PDFs, URLs, etc.) and receive con
 📄 Supports PDF and URL ingestion
 ⚡ Modular and scalable architecture
 🧩 Easy to extend with new data sources
-🏗️ Project Structure
 
 
 ├── data/
@@ -27,11 +26,13 @@ This project enables users to query documents (PDFs, URLs, etc.) and receive con
 │   └── __init__.py
 ├── .python-version
 └── README.md
+
 ⚙️ Tech Stack
 LLM Framework: LangChain
 Workflow Orchestration: LangGraph
 Vector Database: FAISS
 Language: Python
+
 🔄 How It Works
 Document Ingestion
 Load PDFs or URLs
@@ -49,6 +50,7 @@ Generates grounded response
 LangGraph Workflow
 Nodes handle each step (retrieval, generation, etc.)
 State flows through graph
+
 🛠️ Installation
 # Clone the repository
 git clone https://github.com/your-username/DocumentSearch_RAG_Chatboat.git
@@ -62,11 +64,13 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
 ▶️ Usage
 python main.py
 Add your documents to the data/ folder
 Configure settings in src/config
 Run the chatbot and start querying
+
 🔧 Configuration
 
 Update your environment variables:
@@ -78,9 +82,11 @@ You can also modify:
 Chunk size
 Embedding model
 Retrieval strategy
+
 🧠 Example Query
 Q: What is attention mechanism?
 A: The attention mechanism allows models to focus on relevant parts...
+
 📌 Future Improvements
 🌐 Web UI (Streamlit / React)
 📊 Better evaluation metrics
